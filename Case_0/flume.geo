@@ -29,6 +29,13 @@ Extrude {0, 0, wt} {
   }
 Transfinite Volume {1};
 
+Physical Surface("bottomwall") = {13};
+Physical Surface("backwall") = {1};
+Physical Surface("rightwall") = {17};
+Physical Surface("frontwall") = {26};
+Physical Surface("inlet") = {25};
+Physical Surface("atmosphere") = {21};
+Physical Volume("internal") = {1};
 
 Field[1] = Box;
 
@@ -47,5 +54,3 @@ Field[1].ZMin = 0;
 Field[1].ZMax = wt;
 
 Background Field = 1;
-
-Mesh 3
