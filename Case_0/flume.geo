@@ -32,7 +32,7 @@ Transfinite Volume {1};
 
 Field[1] = Box;
 
-Field[1].VIn = 0.003;
+Field[1].VIn = $lc;
 
 Field[1].XMin = 0;
 
