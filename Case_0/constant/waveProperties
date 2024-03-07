@@ -16,11 +16,11 @@ FoamFile
 inlet
 {
     alpha           alpha.water;
-    waveModel       cnoidal;
+    waveModel       StokesI;
     nPaddle         1;
-    waveHeight      0.019;
+    waveHeight      0.259;
     waveAngle       0.0;
     rampTime        1.0;
-    activeAbsorption yes;
+    activeAbsorption no;
     wavePeriod      0.5;
 }
