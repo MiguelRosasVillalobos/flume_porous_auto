@@ -24,7 +24,7 @@ regions
 (
     boxToCell
     {
-        box (0 0 0) (1.64 0.252 0.48);
+        box (0 0 0) (12 0.252 1);
 
         fieldValues
         (
@@ -33,7 +33,7 @@ regions
     }
    boxToCell
     {
-        box (0.82 0 0) (1.06 0.5916 0.48);
+        box (0.82 0 0) (10.06 0.5916 1);
 
         fieldValues
         (
@@ -42,7 +42,7 @@ regions
     }
     boxToCell
     {
-        box (1.16 0 0) (1.4 0.5916 0.48);
+        box (1.16 0 0) (10.4 0.5916 1);
 
         fieldValues
         (

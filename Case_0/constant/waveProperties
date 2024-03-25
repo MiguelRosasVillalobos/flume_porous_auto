@@ -18,7 +18,7 @@ inlet
     alpha           alpha.water;
     waveModel       StokesI;
     nPaddle         1;
-    waveHeight      0.259;
+    waveHeight      0.05;
     waveAngle       0.0;
     rampTime        1.0;
     activeAbsorption no;

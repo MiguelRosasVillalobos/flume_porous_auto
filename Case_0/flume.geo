@@ -1,9 +1,9 @@
 
 //Dimensions of the flume and free surface
-l = 1.64;
+l = 12;
 hm = 0.59;
 h = 0.25;
-wt = 0.48;
+wt = 1;
 H = 0.06;
 
 // Characteristic mesh length
